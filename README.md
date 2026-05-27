@@ -1,5 +1,38 @@
-# codesignal
-practice answers
+# CodeSignal Practice Solutions
+
+A collection of **Python solutions to CodeSignal challenges**, ranging from array manipulation and string processing to hash map design.
+
+---
+
+## Problems Included
+
+| Problem | Category |
+|---|---|
+| `concatenationsSum` | Array math — concatenate all pairs, compute sum |
+| `mutateTheArray` | Array manipulation — running window sums |
+| `countTinyPairs` | String + array — count pairs whose concatenation < k |
+| `meanGroups` | Grouping — cluster indices by row mean |
+| `alternatingSort` | Array — verify alternating sort property |
+| `mergeStrings` | String — merge by character frequency priority |
+| `hashMap` | Data structures — implement a map with batch key/value offsets |
+
+---
+
+## Style
+
+Solutions are written for conciseness — many are single-expression or one-liners using list comprehensions. Readable over clever where clarity matters.
+
+---
+
+## Run
+
+```bash
+python3 -c "
+# paste any function from README.md, then call it:
+print(concatenationsSum([1, 2, 3]))
+"
+```
+
 ```python
 def concatenationsSum(a):
     t=sum(a)
